@@ -1,4 +1,4 @@
-@import url("https://use.typekit.net/boe5gko.css");
+ @import url("https://use.typekit.net/boe5gko.css");
 
 :root {
     
@@ -7,6 +7,8 @@
     
      --text-color: #333236;
      --text-dark-color: #768081;
+     --text-light-color: #c9c6d1;
+     --text-accent: #5c5ceb;
     
 }
 
@@ -14,7 +16,7 @@
     
     
     background: var(--bg-dark-color);
-    color: var(--text-dark-color);:
+    color: var(--text-dark-color);
     
 }
 
@@ -23,9 +25,10 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Shapiro";
     background: var(--bg-color);
     color: var(--text-color);
-    font-family: proxima-nova, sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: Proxima Nova, Camphor, Open Sans, Segoe UI, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     
     font-size:1.1em;
     line-height:1.5em;
@@ -58,15 +61,20 @@ li{
 }
 
 h1, h2, h3, h4, h5, h6{
-
-    font-family: titling-gothic-fb-wide, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-transform: uppercase;
     margin:1em 0 0 0;
 }
 
 p{
     
-    padding:.5em;
+}
+
+
+/* TEXT */
+mark{
+    background:var(--text-light-color);
+    padding:0 .2em 0 .2em;
+}
+
+a{
+    color: 
 }
