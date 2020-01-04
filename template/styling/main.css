@@ -6,18 +6,18 @@ html { font-family: 'Inter', sans-serif; }
 
  :root {
 
-     --bg-color: #fafafa;
+     --bg-color: #fdfdfd;
      --bg-dark-color: #121212;
 
      --text-color: #333236;
      --text-color-darker: #252427;
      --text-dark-color: #768081;
      --text-light-color: #c9c6d1;
-     --text-accent: #5c5ceb;
+     --text-accent: #141cd1;
 
      --ele-light: #e5e4eb;
      --ele-line: #535353;
-     --ele-highlight: #f7e8a9;
+     --ele-highlight: #141cd1;
 
  }
 
@@ -37,9 +37,9 @@ html { font-family: 'Inter', sans-serif; }
      text-rendering: optimizeLegibility;
      -webkit-font-smoothing: antialiased;
      -moz-osx-font-smoothing: grayscale;
-
+     padding-top:1em;
+     
      font-weight:400;
-     font-size: 1.1em;
      line-height: 1.5em;
 
  }
@@ -66,6 +66,7 @@ html { font-family: 'Inter', sans-serif; }
      line-height: 1.4em;
  }
 
+
  h1,
  h2,
  h3,
@@ -73,22 +74,26 @@ html { font-family: 'Inter', sans-serif; }
  h5,
  h6 {
     font-weight:500;
-    margin: .5em 0;
+    margin:.5em 0;
     word-break: break-word;
  }
 
 
- p {}
+h1{ margin-top: 0;}
+
+ p {
+     padding-left:.2em;
+}
 
 
  /* TEXT */
 
  a {
-     text-decoration: none;
-     color: var(--text-accent);
+     color: var(--text-color);
  }
 
  a:hover {
+     color: var(--text-accent);
      text-decoration: underline;
  }
 
@@ -100,10 +105,12 @@ html { font-family: 'Inter', sans-serif; }
 
 ::selection {
      background: var(--ele-highlight);
+    color:#fff;
     
 }
 ::-moz-selection {
      background: var(--ele-highlight);
+    color:#fff;
 }
 
  /* ELEMENTS */
