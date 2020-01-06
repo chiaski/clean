@@ -46,15 +46,23 @@ html { font-family: 'Inter', sans-serif; }
 
 
  #container {
+     position: absolute;
+     top: 0; left: 0;
+     
      display: flex;
      flex-wrap: wrap;
      justify-content: center;
+     align-items: center;
 
      box-sizing: border-box;
      padding: 1em;
+     height:100%;
+     width:100%;
  }
 
- .box {}
+.box{
+    align-self: center;
+}
 
  .box.box-80 {
      width: 80vw;
