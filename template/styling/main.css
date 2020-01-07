@@ -16,7 +16,7 @@ html { font-family: 'Inter', sans-serif; }
      --text-accent: #141cd1;
 
      --ele-light: #e5e4eb;
-     --ele-line: #535353;
+     --ele-line: #141cd1;
      --ele-highlight: #141cd1;
 
  }
@@ -52,6 +52,7 @@ html { font-family: 'Inter', sans-serif; }
      display: flex;
      flex-wrap: wrap;
      justify-content: center;
+     align-content: flex-start;
      align-items: center;
 
      box-sizing: border-box;
@@ -61,6 +62,7 @@ html { font-family: 'Inter', sans-serif; }
  }
 
 .box{
+    width:100%;
     align-self: center;
 }
 
