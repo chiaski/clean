@@ -66,6 +66,15 @@ html { font-family: 'Inter', sans-serif; }
     align-self: center;
 }
 
+
+
+.box.center{
+    margin:auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
  .box.box-80 {
      width: 80vw;
  }
