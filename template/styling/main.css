@@ -63,6 +63,7 @@ html { font-family: 'Inter', sans-serif; }
 
 .box{
     width:100%;
+    flex-wrap: wrap;
     align-self: center;
 }
 
