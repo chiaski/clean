@@ -25,8 +25,6 @@ html { font-family: 'Inter', sans-serif; }
  }
 
  .dark {
-
-
      background: var(--bg-dark-color);
      color: var(--text-dark-color);
 
@@ -69,11 +67,10 @@ html { font-family: 'Inter', sans-serif; }
     display: flex;
     width:100%;
     align-self: center;
+    align-items: center;
     flex-wrap: wrap;
-    align-content: center;
+    justify-content: center;
 }
-
-
 
 
 .box.center{
@@ -102,7 +99,9 @@ html { font-family: 'Inter', sans-serif; }
  h6 {
     font-weight:500;
     margin:.5em 0;
+     width:100%;
     word-break: break-word;
+     text-align: center
  }
 
 
